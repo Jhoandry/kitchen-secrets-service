@@ -3,6 +3,11 @@ import { gql } from 'apollo-server-express';
 export const typeDefs = gql`
     type Query {
         findAllRecipes: [Recipe]
+        findRecipesByName(name : String): [Recipe]
+    }
+
+    type Mutation {
+        sendAverages(id : Int!, average: Float!): Recipe
     }
 
     type Recipe {

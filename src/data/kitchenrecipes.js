@@ -66,5 +66,64 @@ export const recipes = [
                 unit: "Gramos"
             }
         ]
+    },
+    {
+        _id: 0,
+        name: "Arepa",
+        description: "Tortilla de harina de maíz precocina",
+        curiosities: [
+            "Esta comida venezolana y colombiana es muy versátil y hay muchas versiones diferentes de la misma receta.",
+            "Las arepas venezolanas destacan de otras variedades porque su masa es más gruesa, lo que permite rellenarlas con una gran variedad de rellenos.",
+            "Aunque suelen comerse en el desayuno y su preparación es muy sencilla, no las subestimes: las arepas pueden comerse a cualquier hora del día y, con un relleno lo suficientemente potente, podrán servir también como almuerzo."
+        ],
+        averages: [],
+        steps: [
+            {
+                description: "Echa el agua en un bol grande, añade la sal y remueve",
+                order: 1
+            }, 
+            {
+                description: "Añade la harina poco a poco, removiendo todo el rato",
+                order: 2
+            },
+            {
+                description: "Cuando te cueste remover, amasa con tus manos para eliminar los grumos durante unos 2 minutos.",
+                order: 3
+            },
+            {
+                description: "Deja reposar la masa durante 5-10 minutos",
+                order: 4
+            },
+            {
+                description: "Mójate ligeramente las manos para que la masa no se pegue, divídela en bolitas y dales forma de arepa aplastándolas con las palmas de las manos (1 cm de grosor).",
+                order: 5
+            },
+            {
+                description: "Coloca una cucharadita de aceite en una plancha y extiéndelo sobre toda la superficie con ayuda de un papel de cocina. Calienta y lleva las arepas a la plancha. Cocina a fuego bajo hasta que veas que se han endurecido de un lado. Entonces, voltéalas y déjalas dorar por el otro lado.",
+                order: 6
+            }
+        ],
+        ingredients: [
+            {
+                name: "Harina de maíz amarilla precocida",
+                basePortion: "200", 
+                unit: "Gramos"
+            },
+            {
+                name: "Sal",
+                basePortion: "1", 
+                unit: "pizca al gusto"
+            },
+            {
+                name: "Agua",
+                basePortion: "100", 
+                unit: "Gramos"
+            },
+            {
+                name: "Rellenos: Imaginación y creatividad, además de los gustos, son fundamentales. Mantequilla, Queso, jamón, pollo, cerdo, aguacate, huevos revueltos, cebolla y tomate, verduras…",
+                basePortion: "", 
+                unit: ""
+            }
+        ]
     }
 ]
