@@ -8,7 +8,8 @@ export const recipes = [
             "Puede estar acompañada de jamón, queso de mano, queso guayanés, queso telita, mantequilla o margarina. Algunas cachapas pueden estar rellenas de queso amarillo, pernil o hasta chorizo. Pero la tradicional es sólo con queso.",
             "Existen mezclas preenpacadas de cachapas, pero el sabor tierno es inigualable."
         ],
-        averages: [],
+        averageScore: 0,
+        scores: [],
         steps: [
             {
                 description: "Pelar el maiz, desgranar y moler los granos de maíz para obtener la base de la mezcla",
@@ -68,7 +69,7 @@ export const recipes = [
         ]
     },
     {
-        _id: 0,
+        _id: 1,
         name: "Arepa",
         description: "Tortilla de harina de maíz precocina",
         curiosities: [
@@ -76,7 +77,8 @@ export const recipes = [
             "Las arepas venezolanas destacan de otras variedades porque su masa es más gruesa, lo que permite rellenarlas con una gran variedad de rellenos.",
             "Aunque suelen comerse en el desayuno y su preparación es muy sencilla, no las subestimes: las arepas pueden comerse a cualquier hora del día y, con un relleno lo suficientemente potente, podrán servir también como almuerzo."
         ],
-        averages: [],
+        averageScore: 0,
+        scores: [],
         steps: [
             {
                 description: "Echa el agua en un bol grande, añade la sal y remueve",

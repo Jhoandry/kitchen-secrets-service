@@ -4,10 +4,13 @@ export const typeDefs = gql`
     type Query {
         findAllRecipes: [Recipe]
         findRecipesByName(name : String): [Recipe]
+        getDetailByRecipeId(id : Int!): Recipe
+        getBetters: [Recipe]
+        getWorstes: [Recipe]
     }
 
     type Mutation {
-        sendAverages(id : Int!, average: Float!): Recipe
+        sendAverages(id : Int!, score: Float!): Recipe
     }
 
     type Recipe {
@@ -16,7 +19,7 @@ export const typeDefs = gql`
         description: String
         curiosities: [String]
         averageScore: Float
-        averages: [Float]
+        scores: [Int]
         steps: [Step]
         ingredients: [Ingredient]
     }
