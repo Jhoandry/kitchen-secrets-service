@@ -19,7 +19,7 @@ export const resolvers = {
         },
     },
     Mutation: {
-        sendAverages: (_, args) => {
+        sendScore: (_, args) => {
             let recipe = recipes.find( (element) => element._id == args.id);
             recipe.scores.push(args.score)
             var sumatoria = recipe.scores.reduce(function(a, b){ return a + b; }, 0);

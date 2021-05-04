@@ -10,7 +10,7 @@ export const typeDefs = gql`
     }
 
     type Mutation {
-        sendAverages(id : Int!, score: Float!): Recipe
+        sendScore(id : Int!, score: Float!): Recipe
     }
 
     type Recipe {
