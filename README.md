@@ -163,7 +163,7 @@ You will need [npm](https://www.npmjs.com/) and [node](https://www.npmjs.com/pac
 
 Clone down this repository: `git clone https://github.com/Jhoandry/kitchen-secrets-service.git`
 
-Go to folder: `cd /kitchen-secrets-service`
+Go to folder: `cd kitchen-secrets-service`
 
 Installation: `npm install` 
 
