@@ -1,6 +1,6 @@
 <h1 align="left">
    	:arrow_forward:
-    kitchen-secrets-service
+    kitchen secret's service
 </h1> 
 <h5>  The main idea of this project serves as a backend to other apps, Exposing an endpoint to many clients where that can execute graphql queries to get kitchen recipes information. </h5>
 
